@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  color: #222127;
+  background-color: #b2aa8e;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  overflow-y: scroll;
+}
+
+#wrapper {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#intro {
+  background-color: #0c1b33;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+#intro img {
+  margin: 0.5em;
+}
+
+#intro-text {
+  font-size: 16px;
+  padding: 0 1.5em;
+}
+
+#name {
+  padding: 0.5em;
+}
+
+#main {
+  display: flex;
+  flex-grow: 1;
+}
+
+#left {
+  background-color: #0c1b33;
+  color: #fff;
+  width: 40%;
+  font-size: 14px;
+  padding: 1.5em;
+}
+
+#left p {
+  margin-top: 0.5em;
+}
+
+a {
+  color: #fff;
+}
+
+#skill-highlights {
+  margin: 2em 0;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  margin: 0.25em 0 1em 0;
+}
+
+#left hr {
+  background-color: #fff;
+}
+
+#right hr {
+  background-color: #222127;
+}
+
+li {
+  margin-top: 0.2em;
+}
+
+#right {
+  padding: 0 1.5em 1.5em 1.5em;
+  width: 100%;
+  font-size: 14px;
+}
+
+.block {
+  margin-top: 1em;
+}
+
+.date {
+  text-align: right;
+}
+
+@media screen and (min-width: 600px) {
+  #wrapper {
+    width: 800px;
+  }
+}
