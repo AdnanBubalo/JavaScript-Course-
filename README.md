@@ -1,3 +1,2 @@
-# JavaScript-Course
-
-Homework done for JavaScript course
+Homework done for JavaScript course. <br>
+The CV is not my actual CV.
